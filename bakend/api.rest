@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000/api/empleados
+
+###
+POST http://localhost:3000/api/empleados
+Content-Type: application/json
+
+{
+    "name": "Paul",
+    "position": "Jr. Developer",
+    "office": "Ecuador",
+    "salary": "150"
+}
+
+###
+GET http://localhost:3000/api/empleados/6140ac12a8857cd0d4e8a32e
+
+###
+DELETE http://localhost:3000/api/empleados/6140ac12a8857cd0d4e8a32e
+
+###
+PUT http://localhost:3000/api/empleados/6140a9d22a860e430905c59d
+Content-Type: application/json
+
+{
+    "salary": 850
+}
